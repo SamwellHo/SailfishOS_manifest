@@ -28,4 +28,8 @@
     <!-- Whyred -->
     <project path="device/xiaomi/whyred" name="LineageOS/android_device_xiaomi_whyred" revision="lineage-15.1" />
     
+    <project path="rpm"                            name="SailfishOS-Whyred-sdm660/droid-hal-whyred"         revision="master" />
+    <project path="hybris/droid-configs"           name="SailfishOS-Whyred-sdm660/droid-config-whyred"      revision="master" />
+    <project path="hybris/droid-hal-version-whyred" name="SailfishOS-Whyred-sdm660/droid-hal-version-whyred" revision="master" />
+    
 </manifest>
