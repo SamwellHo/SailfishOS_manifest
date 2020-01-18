@@ -22,8 +22,8 @@
     <project path="hardware/qcom/audio-caf/msm8998" name="sailfishos-oneplus5/android_hardware_qcom_audio" revision="lineage-15.1-caf-8998" />
 
     <!-- Added fixup mountpoints for cheeseburger/dumpling (https://git.io/JeGB9) -->
-    <!-- <remove-project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" /> -->
-    <project path="hybris/hybris-boot" name="SailfishOS-Whyred-sdm660/hybris-boot" revision="lineage-15.1" />
+    <remove-project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" />
+    <project path="hybris/hybris-boot" name="SailfishOS-Whyred-sdm660/hybris-boot" />
     
     <!-- Whyred -->
     <project path="device/xiaomi/whyred" name="LineageOS/android_device_xiaomi_whyred" revision="lineage-15.1" />
