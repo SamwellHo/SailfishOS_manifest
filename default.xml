@@ -19,7 +19,8 @@
            sync-j="4" />
 
   <!-- Hybris repos -->
-  <project path="hybris/hybris-boot" name="SailfishOS-Whyred-sdm660/hybris-boot" revision="lineage-15.1" />
+  <project path="hybris/hybris-boot" name="SailfishOS-Whyred-sdm660/hybris-boot" revision="lineage-16.0" />
+                                                                                          
   <project path="hybris/mer-kernel-check" name="mer-hybris/mer-kernel-check" revision="master" />
   <project path="external/droidmedia" name="sailfishos/droidmedia" revision="master" />
   <project path="external/audioflingerglue" name="mer-hybris/audioflingerglue" revision="master" />
