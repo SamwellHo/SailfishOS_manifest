@@ -23,7 +23,7 @@
 
     <!-- Added fixup mountpoints for cheeseburger/dumpling (https://git.io/JeGB9) -->
     <!-- <remove-project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" /> -->
-    <project path="hybris/hybris-boot" name="SailfishOS-Whyred-sdm660/hybris-boot" />
+    <project path="hybris/hybris-boot" name="SailfishOS-Whyred-sdm660/hybris-boot" revision="lineage-15.1" />
     
     <!-- Whyred -->
     <project path="device/xiaomi/whyred" name="LineageOS/android_device_xiaomi_whyred" revision="lineage-15.1" />
