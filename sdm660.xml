@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Linux kernel 4.4 (Android) -->
+    <project path="kernel/xiaomi/sdm660" name="LineageOS/android_kernel_xiaomi_sdm660" />
+    
+    <!-- Device configuration -->
+    <!-- <project path="device/oneplus/msm8998-common" name="sailfishos-oneplus5/android_device_oneplus_msm8998-common" /> -->
+    
+    <!-- Vendor blobs -->
+    <project path="vendor/xiaomi/whyred" name="Sweeto143/vendor_xiaomi_whyred" revision="oreo" />
+    
+      
+    
+
+    <!-- Removed the useless bootanimation/ directory which causes build issues without additional dependencies -->
+    <remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
+    <project path="vendor/lineage" name="sailfishos-oneplus5/android_vendor_lineage" revision="lineage-15.1" />
+    
+    <!-- Fixes droidmedia build failing with AudioMix errors (reverted https://git.io/fjNih) -->
+    <remove-project path="hardware/qcom/audio-caf/msm8998" name="LineageOS/android_hardware_qcom_audio" />
+    <project path="hardware/qcom/audio-caf/msm8998" name="sailfishos-oneplus5/android_hardware_qcom_audio" revision="lineage-15.1-caf-8998" />
+
+    <!-- Added fixup mountpoints for cheeseburger/dumpling (https://git.io/JeGB9) -->
+    <remove-project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" />
+    <project path="hybris/hybris-boot" name="SailfishOS-Whyred-sdm660/hybris-boot" />
+    
+    <!-- Whyred -->
+    <project path="device/xiaomi/whyred" name="LineageOS/android_device_xiaomi_whyred" revision="lineage-15.1" />
+    
+</manifest>
