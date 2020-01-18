@@ -764,6 +764,7 @@
 -->
 
   <include name="snippets/lineage.xml" />
+  <include name="sdm660.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
