@@ -10,5 +10,6 @@
     <project path="vendor/xiaomi/whyred" name="Sweeto143/vendor_xiaomi_whyred" revision="oreo" />
     <remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
     <project path="vendor/lineage" name="sailfishos-oneplus5/android_vendor_lineage" revision="lineage-15.1" />
+    <project path="hybris/mw/libhybris" name="libhybris/libhybris" />
     
 </manifest> 
