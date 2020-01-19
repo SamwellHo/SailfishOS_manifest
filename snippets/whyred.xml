@@ -5,8 +5,8 @@
     <project path="hybris/droid-hal-version-whyred" name="SailfishOS-Whyred-sdm660/droid-hal-version-whyred" revision="master" />
     <remove-project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" />
     <project path="hybris/hybris-boot" name="SailfishOS-Whyred-sdm660/hybris-boot" revision="hybris-16.0" />
-    <project path="kernel/xiaomi/sdm660" name="LineageOS/android_kernel_xiaomi_sdm660" revision="lineage-15.1" />
-    <project path="device/xiaomi/whyred" name="LineageOS/android_device_xiaomi_whyred" revision="lineage-15.1" />
+    <project path="kernel/xiaomi/sdm660" name="sailfish-sdm660/android_kernel_xiaomi_sdm660" revision="lineage-15.1" />
+    <project path="device/xiaomi/whyred" name="sailfish-sdm660/android_device_xiaomi_whyred" revision="lineage-15.1" />
     <project path="vendor/xiaomi/whyred" name="Sweeto143/vendor_xiaomi_whyred" revision="oreo" />
     <remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
     <project path="vendor/lineage" name="sailfishos-oneplus5/android_vendor_lineage" revision="lineage-15.1" />
