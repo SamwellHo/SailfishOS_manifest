@@ -13,5 +13,5 @@
     <project path="hybris/mw/libhybris" name="libhybris/libhybris" revision="master" />
     <remove-project path="hardware/qcom/audio-caf/msm8998" name="LineageOS/android_hardware_qcom_audio" />
     <project path="hardware/qcom/audio-caf/msm8998" name="sailfishos-oneplus5/android_hardware_qcom_audio" revision="lineage-15.1-caf-8998" />
-    <project path="hybris/hybris-installer" name="SailfishOS-sdm660/SailfishOS_hybris-installer" revision="hybris-15.1" />
+    <project path="hybris/hybris-installer" name="SailfishOS-sdm660/SailfishOS_hybris-install" revision="hybris-15.1" />
 </manifest> 
