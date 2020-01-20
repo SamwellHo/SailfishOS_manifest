@@ -17,7 +17,7 @@ Then to sync up:
     repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 Or Force Sync :
 ```bash
-    repo sync -f -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+repo sync -f -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 
 
