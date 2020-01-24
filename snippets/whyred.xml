@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project path="rpm"                            name="SailfishOS-sdm660/SailfishOS_droid-hal-whyred"         revision="hybris-15.1" />
-    <project path="hybris/droid-configs"           name="SailfishOS-sdm660/SailfishOS_droid-config-whyred"      revision="hybris-15.1" />
-    <project path="hybris/droid-hal-version-whyred" name="SailfishOS-sdm660/SailfishOS_droid-hal-version-whyred" revision="hybris-15.1" />
+    <project path="rpm"                            name="SailfishOS-sdm660/SailfishOS_droid-hal-whyred"         revision="hybris-15.1-new" />
+    <project path="hybris/droid-configs"           name="SailfishOS-sdm660/SailfishOS_droid-config-whyred"      revision="hybris-15.1-new" />
+    <project path="hybris/droid-hal-version-whyred" name="SailfishOS-sdm660/SailfishOS_droid-hal-version-whyred" revision="hybris-15.1-new" />
     <remove-project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" />
     <project path="hybris/hybris-boot" name="SailfishOS-sdm660/SailfishOS_hybris-boot" revision="hybris-15.1" />
     <project path="kernel/xiaomi/sdm660" name="SailfishOS-sdm660/SailfishOS_kernel_xiaomi_sdm660-new" revision="hybris-15.1" />
