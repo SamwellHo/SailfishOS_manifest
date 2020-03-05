@@ -8,10 +8,11 @@
     <project path="kernel/vsmart/joy3" name="SamwellHo/android_kernel_vsmart_joy3" revision="hybris-16.0" />
     <project path="device/vsmart/joy3" name="SamwellHo/android_device_vsmart_joy3" revision="lineage-16.0" />
     <project path="vendor/vsmart/joy3" name="SamwellHo/android_vendor_vsmart_joy3" revision="lineage-16.0" />
-    <!-- <remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" /> -->
-    <!-- <project path="vendor/lineage" name="SailfishOS-sdm660/SailfishOS_vendor_lineage" revision="hybris-15.1" /> -->
+    <remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
+    <project path="vendor/lineage" name="SamwellHo/SailfishOS_vendor_lineage" revision="hybris-15.1" />
     <project path="hybris/mw/libhybris" name="libhybris/libhybris" revision="master" />
-    <!-- <remove-project path="hardware/qcom/audio-caf/msm8998" name="LineageOS/android_hardware_qcom_audio" /> -->
-    <!--<project path="hardware/qcom/audio-caf/msm8998" name="sailfishos-oneplus5/android_hardware_qcom_audio" revision="lineage-15.1-caf-8998" /> -->
+    <project path="hardware/qcom/audio-caf/msm8953" name="SamwellHo/android_hardware_qcom_audio" revision="lineage-16.0"/>
+    project path="hardware/qcom/display-caf/msm8953" name="SamwellHo/android_hardware_qcom_display/import" revision="lineage-16.0"/>
+    <project path="hardware/qcom/media-caf/msm8953" name="SamwellHo/android_hardware_qcom_media" revision="lineage-16.0"/>
     <project path="hybris/hybris-installer" name="SamwellHo/SailfishOS_hybris-install" revision="hybris-15.1" />
 </manifest> 
