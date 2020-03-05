@@ -1,4 +1,4 @@
-?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <project path="rpm" name="SamwellHo/SailfishOS_droid-hal-joy3" revision="hybris-16.0" />
     <project path="hybris/droid-configs" name="SamwellHo/SailfishOS_droid-config-joy3" revision="hybris-16.0" />
