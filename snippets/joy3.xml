@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project path="rpm" name="SamwellHo/SailfishOS_droid-hal-joy3" revision="hybris-15.1-new" />
-    <project path="hybris/droid-configs" name="SamwellHo/SailfishOS_droid-config-joy3" revision="hybris-15.1-new" />
-    <project path="hybris/droid-hal-version-joy3" name="SamwellHo/SailfishOS_droid-hal-version-joy3" revision="hybris-15.1-new" />
+    <project path="rpm" name="SamwellHo/SailfishOS_droid-hal-joy3" revision="hybris-16.0" />
+    <project path="hybris/droid-configs" name="SamwellHo/SailfishOS_droid-config-joy3" revision="hybris-16.0" />
+    <project path="hybris/droid-hal-version-joy3" name="SamwellHo/SailfishOS_droid-hal-version-joy3" revision="hybris-16.0" />
     <remove-project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" />
-    <project path="hybris/hybris-boot" name="SamwellHo/SailfishOS_hybris-boot" revision="hybris-15.1" />
-    <project path="kernel/vsmart/joy3" name="SamwellHo/android_kernel_vsmart_joy3" revision="hybris-16.0" />
+    <project path="hybris/hybris-boot" name="SamwellHo/SailfishOS_hybris-boot" revision="hybris-16.0" />
+    <project path="kernel/vsmart/joy3" name="SamwellHo/android_kernel_vsmart_joy3" revision="lineage-16.0" />
     <project path="device/vsmart/joy3" name="SamwellHo/android_device_vsmart_joy3" revision="lineage-16.0" />
     <project path="vendor/vsmart/joy3" name="SamwellHo/android_vendor_vsmart_joy3" revision="lineage-16.0" />
     <remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
