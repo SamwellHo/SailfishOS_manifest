@@ -764,7 +764,7 @@
 -->
 
   <include name="snippets/lineage.xml" />
-  <include name="snippets/whyred.xml" />
+  <include name="snippets/joy3.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
